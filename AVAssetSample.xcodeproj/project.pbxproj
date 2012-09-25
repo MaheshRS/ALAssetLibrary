@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179D37EF16118E4700004FD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D37EE16118E4700004FD5 /* UIKit.framework */; };
+		179D37F116118E4700004FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D37F016118E4700004FD5 /* Foundation.framework */; };
+		179D37F316118E4700004FD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D37F216118E4700004FD5 /* CoreGraphics.framework */; };
+		179D37F916118E4700004FD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179D37F716118E4700004FD5 /* InfoPlist.strings */; };
+		179D37FB16118E4700004FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179D37FA16118E4700004FD5 /* main.m */; };
+		179D37FF16118E4700004FD5 /* AVAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179D37FE16118E4700004FD5 /* AVAAppDelegate.m */; };
+		179D380616118F8900004FD5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179D380516118F8900004FD5 /* AssetsLibrary.framework */; };
+		179D380C161190A500004FD5 /* AVARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 179D380B161190A500004FD5 /* AVARootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		179D37EA16118E4700004FD5 /* AVAssetSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAssetSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179D37EE16118E4700004FD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		179D37F016118E4700004FD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		179D37F216118E4700004FD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		179D37F616118E4700004FD5 /* AVAssetSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVAssetSample-Info.plist"; sourceTree = "<group>"; };
+		179D37F816118E4700004FD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		179D37FA16118E4700004FD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		179D37FC16118E4700004FD5 /* AVAssetSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAssetSample-Prefix.pch"; sourceTree = "<group>"; };
+		179D37FD16118E4700004FD5 /* AVAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAAppDelegate.h; sourceTree = "<group>"; };
+		179D37FE16118E4700004FD5 /* AVAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAAppDelegate.m; sourceTree = "<group>"; };
+		179D380516118F8900004FD5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		179D380A161190A500004FD5 /* AVARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVARootViewController.h; path = Resources/Binaries/Controllers/AVARootViewController.h; sourceTree = "<group>"; };
+		179D380B161190A500004FD5 /* AVARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVARootViewController.m; path = Resources/Binaries/Controllers/AVARootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179D37E716118E4700004FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179D380616118F8900004FD5 /* AssetsLibrary.framework in Frameworks */,
+				179D37EF16118E4700004FD5 /* UIKit.framework in Frameworks */,
+				179D37F116118E4700004FD5 /* Foundation.framework in Frameworks */,
+				179D37F316118E4700004FD5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179D37DF16118E4700004FD5 = {
+			isa = PBXGroup;
+			children = (
+				179D37F416118E4700004FD5 /* AVAssetSample */,
+				179D37ED16118E4700004FD5 /* Frameworks */,
+				179D37EB16118E4700004FD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179D37EB16118E4700004FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179D37EA16118E4700004FD5 /* AVAssetSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179D37ED16118E4700004FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179D380516118F8900004FD5 /* AssetsLibrary.framework */,
+				179D37EE16118E4700004FD5 /* UIKit.framework */,
+				179D37F016118E4700004FD5 /* Foundation.framework */,
+				179D37F216118E4700004FD5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		179D37F416118E4700004FD5 /* AVAssetSample */ = {
+			isa = PBXGroup;
+			children = (
+				179D38071611906000004FD5 /* Resources */,
+				179D37FD16118E4700004FD5 /* AVAAppDelegate.h */,
+				179D37FE16118E4700004FD5 /* AVAAppDelegate.m */,
+				179D37F516118E4700004FD5 /* Supporting Files */,
+			);
+			path = AVAssetSample;
+			sourceTree = "<group>";
+		};
+		179D37F516118E4700004FD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179D37F616118E4700004FD5 /* AVAssetSample-Info.plist */,
+				179D37F716118E4700004FD5 /* InfoPlist.strings */,
+				179D37FA16118E4700004FD5 /* main.m */,
+				179D37FC16118E4700004FD5 /* AVAssetSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		179D38071611906000004FD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				179D38081611906700004FD5 /* Binaries */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		179D38081611906700004FD5 /* Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				179D38091611907200004FD5 /* Controllers */,
+			);
+			name = Binaries;
+			sourceTree = "<group>";
+		};
+		179D38091611907200004FD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				179D380A161190A500004FD5 /* AVARootViewController.h */,
+				179D380B161190A500004FD5 /* AVARootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179D37E916118E4700004FD5 /* AVAssetSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179D380216118E4700004FD5 /* Build configuration list for PBXNativeTarget "AVAssetSample" */;
+			buildPhases = (
+				179D37E616118E4700004FD5 /* Sources */,
+				179D37E716118E4700004FD5 /* Frameworks */,
+				179D37E816118E4700004FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAssetSample;
+			productName = AVAssetSample;
+			productReference = 179D37EA16118E4700004FD5 /* AVAssetSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179D37E116118E4700004FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AVA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 179D37E416118E4700004FD5 /* Build configuration list for PBXProject "AVAssetSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 179D37DF16118E4700004FD5;
+			productRefGroup = 179D37EB16118E4700004FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179D37E916118E4700004FD5 /* AVAssetSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179D37E816118E4700004FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179D37F916118E4700004FD5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179D37E616118E4700004FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179D37FB16118E4700004FD5 /* main.m in Sources */,
+				179D37FF16118E4700004FD5 /* AVAAppDelegate.m in Sources */,
+				179D380C161190A500004FD5 /* AVARootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		179D37F716118E4700004FD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179D37F816118E4700004FD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179D380016118E4700004FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179D380116118E4700004FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179D380316118E4700004FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAssetSample/AVAssetSample-Prefix.pch";
+				INFOPLIST_FILE = "AVAssetSample/AVAssetSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		179D380416118E4700004FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVAssetSample/AVAssetSample-Prefix.pch";
+				INFOPLIST_FILE = "AVAssetSample/AVAssetSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179D37E416118E4700004FD5 /* Build configuration list for PBXProject "AVAssetSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D380016118E4700004FD5 /* Debug */,
+				179D380116118E4700004FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179D380216118E4700004FD5 /* Build configuration list for PBXNativeTarget "AVAssetSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D380316118E4700004FD5 /* Debug */,
+				179D380416118E4700004FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179D37E116118E4700004FD5 /* Project object */;
+}
